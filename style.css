@@ -136,7 +136,7 @@ ul li a {
     }
 
     .header-card {
-        padding-left: 0; /* Chapdagi bo'shliq olinadi */
+        padding-left: 0; 
         h2 { font-size: 22px; }
         h5 { font-size: 16px; }
     }
