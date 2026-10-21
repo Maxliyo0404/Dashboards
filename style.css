@@ -148,7 +148,7 @@ ul li a {
     }
 
     .one-list {
-        grid-template-columns: 1fr; /* Telefonda 1 ta ustun bo'lib birin-ketin tushadi */
+        grid-template-columns: 1fr;
         gap: 20px;
     }
 }
