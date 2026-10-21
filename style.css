@@ -110,7 +110,7 @@ ul li a {
         }
         
         ul li a span {
-            display: none; /* Matnlar yashirinadi, xohlasangiz qoldirishingiz mumkin */
+            display: none; 
         }
     }
 
