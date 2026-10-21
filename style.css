@@ -132,7 +132,7 @@ ul li a {
 /* Mobil telefonlar uchun (768px dan kichik) */
 @media (max-width: 768px) {
     aside {
-        transform: translateX(-100%); /* Telefonda yon panel butunlay yashirinadi */
+        transform: translateX(-100%); 
     }
 
     .header-card {
