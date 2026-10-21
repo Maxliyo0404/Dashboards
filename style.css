@@ -125,7 +125,7 @@ ul li a {
     }
 
     .one-list {
-        grid-template-columns: repeat(2, 1fr); /* 4 tadan 2 ta ustunga o'tadi */
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 
