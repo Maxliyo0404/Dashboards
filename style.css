@@ -67,7 +67,7 @@ ul li a {
     gap: 40px;
 }
 .one-item{
-    width: 250px;
+    W: 100%;
     height: 300px;
     border-radius: 20px;
     padding: 20px;
@@ -80,7 +80,7 @@ ul li a {
     background-color: white;
     transition: 0. 3s;
     &:hover{
-        transform: translateY(-8px);
+        transform: scale(0.8);
     }
 }
 .one-item h2{
