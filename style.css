@@ -100,7 +100,7 @@ ul li a {
 }
 @media (max-width: 992px) {
     aside {
-        width: 80px; /* Yon panel yig'ilib, faqat ikonka sig'adigan bo'ladi */
+        width: 80px; 
         overflow: hidden;
         
         h1 {
