@@ -76,7 +76,9 @@ ul li a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);    &:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    background-color: white;
+    &:hover{
         transform: scale(0.8);
     }
 }
