@@ -98,3 +98,58 @@ ul li a {
     color: white;
     
 }
+@media (max-width: 992px) {
+    aside {
+        width: 80px; /* Yon panel yig'ilib, faqat ikonka sig'adigan bo'ladi */
+        overflow: hidden;
+        
+        h1 {
+            font-size: 18px;
+            text-align: center;
+            padding: 20px 5px;
+        }
+        
+        ul li a span {
+            display: none; /* Matnlar yashirinadi, xohlasangiz qoldirishingiz mumkin */
+        }
+    }
+
+    .header-card {
+        padding-left: 90px;
+        h2 { font-size: 26px; }
+        h5 { font-size: 20px; }
+    }
+
+    .section-one {
+        padding-left: 100px;
+    }
+
+    .one-list {
+        grid-template-columns: repeat(2, 1fr); /* 4 tadan 2 ta ustunga o'tadi */
+    }
+}
+
+/* Mobil telefonlar uchun (768px dan kichik) */
+@media (max-width: 768px) {
+    aside {
+        transform: translateX(-100%); /* Telefonda yon panel butunlay yashirinadi */
+    }
+
+    .header-card {
+        padding-left: 0; /* Chapdagi bo'shliq olinadi */
+        h2 { font-size: 22px; }
+        h5 { font-size: 16px; }
+    }
+
+    .section-one {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 100px;
+    }
+
+    .one-list {
+        grid-template-columns: 1fr; /* Telefonda 1 ta ustun bo'lib birin-ketin tushadi */
+        gap: 20px;
+    }
+}
+Buni olishingizga qo'shib ko'ring, ekran o'lchamini kichraytirganingizda barcha rasm o'ta mumkin va chiroyli tarzda moslashib k
