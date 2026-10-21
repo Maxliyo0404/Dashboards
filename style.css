@@ -80,7 +80,7 @@ ul li a {
     background-color: white;
     transition: 0. 3s;
     &:hover{
-        transform: scale(0.8);
+        transform: translateY(-8px);
     }
 }
 .one-item h2{
