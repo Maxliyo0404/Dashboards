@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    background:  #00c0ef;
+    padding: 20px;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 200px;
+}
+.header-card h2 {
+    font-size:35px ;
+}
+.header-card h5{
+    font-size: 30px;
+    
+}
+aside{
+    width: 300px;
+    height: 100vh;
+    position: relative;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background: darkblue;
+}
+aside h1{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    font-family: sans-serif;
+}
+ul li a {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-size: 23px;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.section-one{
+   padding-left: 300px;
+   padding-top: 120px;
+}
+.one-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.one-item{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 10px 13px 10px 10px gainsboro;
+    &:hover{
+        transform: scale(0.8);
+    }
+}
+.one-item h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.one-item p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.one-item button{
+    font-size: 17px;
+    padding: 8px 20px;
+    background: gainsboro;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    
+}
